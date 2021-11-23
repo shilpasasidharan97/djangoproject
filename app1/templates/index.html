@@ -1,0 +1,54 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web development</title>
+</head>
+<body style="background: linear-gradient(to bottom, #33ccff 0%, #ff99ff 100%);background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
+
+    <h3 align="center" style="color: darkblue"><U><i>WEB DEVELOPMENT TUTORIALS</i></U></h3>
+
+    <table align="center" style="border:0;width:80%; height: 600px; " cellpaddinf="2px" cellspacing="10px"> 
+        <tr>
+        <td align="center"><br />
+            <div style="border: 0px;width: 300px;height: 600px;background: linear-gradient(to bottom, #e744ec 0%, #e08713 100%);"><br />HTML<br /><br /><br />
+               <a href="{% url 'app1:html' %}"><img src="/static/image/html.png" style="width: 150px;height: 150px;"></a><br /><br /><br /><br /><br />
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 300px;">HTML tutorial for beginners</iframe>
+            </div>
+        </td>
+
+
+        <td align="center">
+            <div style="border: 0px;width: 300px;height: 600px;background: linear-gradient(to bottom, #e744ec 0%, #e08713 100%);"><br />CSS<br /><br />
+                <a href="{% url 'app1:css' %}"><img src="/static/image/css3.png"  align="center" style="width: 230px;height: 190px;" ></a><br /><br /><br /><br /><br />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1Rs2ND1ryYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 300px;"></iframe>
+            </div>
+        </td>
+
+
+        <td align="center">
+            <div style="border: 0px;width: 300px;height: 600px;background: linear-gradient(to bottom, #e744ec 0%, #e08713 100%);"><br />JAVASCRIPT<br /><br /><br />
+                <a href="{% url 'app1:js' %}"><img src="/static/image/javascript.png" style="width: 250px;height: 150px;"></a><br /><br /><br /><br /><br />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jS4aFq5-91M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 300px;"></iframe>
+            </div>
+        </td>
+
+
+
+
+        </tr>
+        
+
+
+
+
+    </table>
+
+    
+</body>
+</html>
